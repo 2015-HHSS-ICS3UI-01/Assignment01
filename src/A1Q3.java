@@ -23,8 +23,10 @@ public class A1Q3 {
     public static void main(String[] args) {
         // make a city for the robot to live in
         City kw = new City();
+        
                //make a robot to live within the city
         Robot Climber = new Robot (kw, 3, 0, Direction.EAST);
+        
         // make walls (mountains) within the city
         new Wall (kw, 3, 2, Direction.WEST);
         new Wall (kw, 3, 2, Direction.NORTH);
@@ -35,8 +37,10 @@ public class A1Q3 {
         new Wall (kw, 2, 4, Direction.NORTH);
         new Wall (kw, 2, 4, Direction.EAST);
         new Wall (kw, 3, 4, Direction.EAST);
+        
         // make things in the city
-        Thing Flag = new Thing (kw, 3, 1);
+        new Thing (kw, 3, 1);
+        
         // make robot move within city
         Climber.move();
         Climber.pickThing();
