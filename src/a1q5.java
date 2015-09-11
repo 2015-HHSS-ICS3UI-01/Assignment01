@@ -35,6 +35,9 @@ public class a1q5 {
         new Wall(town,2,3,Direction.WEST);
         new Wall(town,2,3,Direction.NORTH);
         new Wall(town,2,3,Direction.EAST);
+        jarvis.setLabel("M");
+        ultron.setLabel("K");
+        //move robots
         ultron.turnLeft();
         ultron.turnLeft();
         ultron.move();
