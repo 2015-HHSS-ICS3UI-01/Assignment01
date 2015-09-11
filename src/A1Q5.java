@@ -22,6 +22,7 @@ public class A1Q5 {
     public static void main(String[] args) {
         // make city for the robot to live in
         City kw = new City();
+        
         // make robots to live in the city
         Robot maria = new Robot(kw, 0, 1, Direction.WEST);
         Robot karel = new Robot(kw, 3, 3, Direction.EAST);

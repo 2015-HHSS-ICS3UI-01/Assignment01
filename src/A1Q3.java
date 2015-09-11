@@ -24,7 +24,7 @@ public class A1Q3 {
         // make a city for the robot to live in
         City kw = new City();
         
-               //make a robot to live within the city
+        //make a robot to live within the city
         Robot Climber = new Robot (kw, 3, 0, Direction.EAST);
         
         // make walls (mountains) within the city
