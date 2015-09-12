@@ -36,10 +36,10 @@ public class A1Q5 {
         new Wall(kw,3,3, Direction.SOUTH);
         Robot maria = new Robot(kw, 0,1, Direction.WEST);
         Robot karel = new Robot(kw, 3,3, Direction.EAST);
-        karel.setColor(Color.yellow);
+        karel.setLabel("K");
         
         
-        
+        maria.setLabel("M");
         karel.turnLeft();
         karel.turnLeft();
         karel.move();
