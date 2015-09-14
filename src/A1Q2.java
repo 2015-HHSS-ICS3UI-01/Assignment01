@@ -57,6 +57,17 @@ public class A1Q2 {
      Bill.move();
      Bill.turnLeft();
      Bill.turnLeft();
+     Bill.turnLeft();
+     Bill.move();
+     Bill.turnLeft();
+     Bill.turnLeft();
+     Bill.turnLeft();
+     Bill.move();
+      Bill.turnLeft();
+     Bill.turnLeft();
+     Bill.turnLeft();
+     Bill.putThing();
+     
      
      
      
