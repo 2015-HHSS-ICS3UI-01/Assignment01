@@ -40,6 +40,36 @@ public class A1Q3 {
         //Make Flag
         new Thing(kw,3,1);
         
+        //make robots climb mountains
+        karel.move();
+        karel.pickThing();
+        karel.turnLeft();
+        karel.move();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.move();
+        karel.turnLeft();
+        karel.move();
+        karel.move();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.move();
+        karel.putThing();
+        karel.move();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.move();
+        karel.turnLeft();
+        karel.move();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.move();
+        karel.move();
+        karel.turnLeft();
         
     }
 }
