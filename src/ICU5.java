@@ -4,6 +4,7 @@ import becker.robots.Direction;
 import becker.robots.Robot;
 import becker.robots.Thing;
 import becker.robots.Wall;
+import java.awt.Color;
 
 /*
  * To change this template, choose Tools | Templates
@@ -30,6 +31,11 @@ public class ICU5 {
     
     Robot Liam = new Robot (L, 0, 1, Direction.WEST);
     Robot Jamez = new Robot (L, 3, 3, Direction.EAST);
+    Liam.setLabel("YungBink");
+    Liam.setColor(Color.pink);
+    Jamez.setColor(Color.yellow);
+    Jamez.setLabel("NetBeansAndChill");
+   
    
     new Thing (L, 0, 0);
      new Thing (L, 1, 0);
