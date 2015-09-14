@@ -1,5 +1,7 @@
 
 import becker.robots.City;
+import becker.robots.Direction;
+import becker.robots.Robot;
 
 /*
  * To change this template, choose Tools | Templates
@@ -17,5 +19,7 @@ public class a1q5 {
      */
     public static void main(String[] args) {
          City a1q5= new City();
+         Robot jeff= new Robot(a1q5,0,1,Direction.WEST);
+         Robot lali= new Robot(a1q5,3,3,Direction.EAST);
     }
 }
