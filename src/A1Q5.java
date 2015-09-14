@@ -32,6 +32,9 @@ public class A1Q5 {
         Robot MetalGuy = new Robot(kw,0,1,Direction.WEST);
         Robot karel = new Robot(kw,3,3,Direction.EAST);
         
+        MetalGuy.setLabel("M");
+        karel.setLabel("K");
+        
         new Thing(kw,0,0);
         new Thing(kw,1,0);
         new Thing(kw,1,1);
