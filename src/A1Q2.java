@@ -1,6 +1,8 @@
 
 import becker.robots.City;
 import becker.robots.Direction;
+import becker.robots.Robot;
+import becker.robots.Thing;
 import becker.robots.Wall;
 
 /*
@@ -30,5 +32,34 @@ public class A1Q2 {
         new Wall(aa,1, 2, Direction.NORTH);
         new Wall(aa,1, 2, Direction.EAST);
         new Wall(aa,1, 2, Direction.SOUTH);
+        
+        //Make a Thing
+        new Thing(aa,2, 2);
+        
+        //Make the robot to live in the city
+        Robot Jacob = new Robot(aa,1, 2, Direction.SOUTH);
+        Jacob.turnLeft();
+        Jacob.turnLeft();
+        Jacob.turnLeft();
+        Jacob.move();
+        Jacob.turnLeft();
+        Jacob.move();
+        Jacob.turnLeft();
+        Jacob.move();
+        Jacob.pickThing();
+        Jacob.turnLeft();
+        Jacob.turnLeft();
+        Jacob.move();
+        Jacob.turnLeft();
+        Jacob.turnLeft();
+        Jacob.turnLeft();
+        Jacob.move();
+        Jacob.turnLeft();
+        Jacob.turnLeft();
+        Jacob.turnLeft();
+        Jacob.move();
+        Jacob.turnLeft();
+        Jacob.turnLeft();
+        Jacob.turnLeft();
     }
 }
