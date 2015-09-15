@@ -27,6 +27,48 @@ public class A1Q2 {
         new Wall (kw, 1,1, Direction.NORTH);
         new Wall (kw,1,2, Direction.NORTH);
         new Wall (kw, 1,2, Direction.EAST);
+        new Wall (kw, 1,2, Direction.SOUTH);
+        new Wall (kw, 1,1, Direction.WEST);
+        new Wall (kw, 2,1, Direction.WEST);
+        new Wall (kw, 2,1, Direction.SOUTH);
+        
+        new Thing (kw, 2,2);
+        
+        Robot sara = new Robot (kw, 1,2, Direction.SOUTH);
+        
+        sara.turnLeft();
+        sara.turnLeft();
+        sara.turnLeft();
+        sara.move();
+        sara.turnLeft();
+        sara.move();
+        sara.turnLeft();
+        sara.move();
+        sara.pickThing();
+        sara.turnLeft();
+        sara.turnLeft();
+        sara.move();
+        sara.turnLeft();
+        sara.turnLeft();
+        sara.turnLeft();
+        sara.move();
+        sara.turnLeft();
+        sara.turnLeft();
+        sara.turnLeft();
+        sara.move();
+        sara.turnLeft();
+        sara.turnLeft();
+        sara.turnLeft();
+        
+        
+        
+        
+        
+        
+        
+        
+      
+        
         
         
                 
