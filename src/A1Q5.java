@@ -40,7 +40,32 @@ public class A1Q5 {
        new Wall (gotham, 3, 3, Direction.SOUTH);
        
        //Put items Karl has dropped.
-       new Thing (gotham, 0, 0)
+       new Thing (gotham, 0, 0);
+       new Thing (gotham, 1, 0);
+       new Thing (gotham, 1, 1);
+       new Thing (gotham, 1, 2);
+       new Thing (gotham, 2, 2);
+       
+       //Have maria and karel pick up the dropped items.
+       maria.move();
+       maria.pickThing();
+       karel.turnLeft();
+       karel.turnLeft();
+       maria.turnLeft();
+       karel.move();
+       maria.move();
+       maria.pickThing();
+       karel.turnLeft();
+       karel.turnLeft();
+       karel.turnLeft();
+       maria.turnLeft();
+       karel.move();
+       karel.pickThing();
+       karel.move();
+       karel.pickThing();
+       maria.move();
+       maria.pickThing();
+       karel.turnLeft();
        
                
      
