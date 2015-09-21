@@ -22,9 +22,13 @@ public class a1q3 {
      */
     public static void main(String[] args) {
         //Build the things
+        //City
         City town = new City();
+        //Robot
         Robot jarvis = new Robot(town,3,0,Direction.EAST);
+        //Thing
         new Thing(town,3,1);
+        //Wall
         new Wall(town,3,2,Direction.WEST);
         new Wall(town,3,2,Direction.NORTH);
         new Wall(town,2,3,Direction.WEST);

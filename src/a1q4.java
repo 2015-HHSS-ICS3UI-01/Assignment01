@@ -21,9 +21,12 @@ public class a1q4 {
      */
     public static void main(String[] args) {
         //Build the things
+        //City
         City town = new City();
+        //Robots
         Robot jarvis = new Robot(town,0,0,Direction.SOUTH);
         Robot ultron = new Robot(town,0,1,Direction.SOUTH);
+        //walls
         new Wall(town,0,1,Direction.WEST);
         new Wall(town,1,1,Direction.WEST);
         new Wall(town,1,1,Direction.SOUTH);
