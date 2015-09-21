@@ -27,7 +27,7 @@ public class A1Q4 {
     Robot kar = new Robot (kw, 0, 0, Direction.SOUTH);
       new Wall(kw, 0, 1, Direction.WEST);
       new Wall(kw, 1, 1, Direction.WEST);
-      new Wall(kw, 1, 1, Direction.SOUTH);
+      new Wall(kw, 1, 1, Direction.SOUTH); 
       Robot jab = new Robot (kw, 0, 1, Direction.SOUTH);
     kar.move();
     jab.move();

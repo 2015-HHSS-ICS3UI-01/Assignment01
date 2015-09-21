@@ -51,7 +51,7 @@ public class A1Q5 {
         gza.move();
         man.pickThing();
         gza.pickThing();
-    }
+    }   
 }
         
         
