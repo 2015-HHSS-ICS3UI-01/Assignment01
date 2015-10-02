@@ -24,6 +24,7 @@ public class a1q2 {
          City a1q2= new City();
         //new robot 
         Robot jeff= new Robot(a1q2,1,2,Direction.SOUTH);
+        //make walls 
         new Wall(a1q2,1,2,Direction.SOUTH);
         new Wall(a1q2,1,2,Direction.EAST);
         new Wall(a1q2,1,2,Direction.NORTH);
@@ -32,6 +33,8 @@ public class a1q2 {
         new Wall(a1q2,2,1,Direction.WEST);
         new Wall(a1q2,2,1,Direction.SOUTH);
         new Thing(a1q2,2,2);
+        
+        //make robot move 
         jeff.turnLeft();
         jeff.turnLeft();
         jeff.turnLeft();

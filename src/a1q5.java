@@ -20,7 +20,9 @@ public class a1q5 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        //make city 
          City a1q5= new City();
+         //make robots 
          Robot jeff= new Robot(a1q5,0,1,Direction.WEST);
          Robot lali= new Robot(a1q5,3,3,Direction.EAST);
          new Thing(a1q5,0,0);
@@ -34,15 +36,17 @@ public class a1q5 {
          new Wall(a1q5,3,3,Direction.EAST);
          new Wall(a1q5,3,3,Direction.SOUTH);
          
+         //make labels for robots 
+         jeff.setLabel("J");
+          lali.setLabel("L");
+         //make robots move 
+          
          jeff.move();
          jeff.pickThing();
          jeff.turnLeft();
          jeff.move();
          jeff.pickThing();
-         jeff.setLabel("J");
-         
-         lali.setLabel("L");
-         
+        
          
          lali.turnLeft();
          lali.turnLeft();
