@@ -7,6 +7,7 @@
 import becker.robots.City;
 import becker.robots.Direction;
 import becker.robots.Robot;
+import becker.robots.Wall;
 
 /**
  *
@@ -23,13 +24,14 @@ public class Assignment02 {
         Robot denis = new Robot(Kitchener, 2, 1, Direction.NORTH);
         Robot rafa  = new Robot(Kitchener, 1, 3, Direction.SOUTH);   
         
-
-    
-    
-    
-    
-    
-    
-    
+        new Wall (Kitchener, 1, 2, Direction.SOUTH);
+        new Wall (Kitchener, 1, 2, Direction.WEST);
+        new Wall (Kitchener, 1, 2, Direction.NORTH);
+        new Wall (Kitchener, 1, 1, Direction.NORTH);
+        new Wall (Kitchener, 1, 0, Direction.WEST);
+        new Wall (Kitchener, 2, 1, Direction.WEST);
+        new Wall (Kitchener, 2, 1, Direction.SOUTH);    
+        
+        
     }
 }
