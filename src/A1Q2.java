@@ -3,6 +3,7 @@ import becker.robots.City;
 import becker.robots.Direction;
 import becker.robots.Robot;
 import becker.robots.Wall;
+import java.awt.Color;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -14,7 +15,7 @@ import becker.robots.Wall;
  *
  * @author Denis
  */
-public class A1Q1 {
+public class A1Q2 {
 
     /**
      * @param args the command line arguments
@@ -22,44 +23,43 @@ public class A1Q1 {
     public static void main(String[] args) {
         // TODO code application logic here
         City Kitchener = new City();
-        Robot denis = new Robot(Kitchener, 0, 2, Direction.WEST);
-   
-        new Wall (Kitchener, 0, 2, Direction.SOUTH);
-        new Wall (Kitchener, 0, 1, Direction.SOUTH);
-        new Wall (Kitchener, 1, 3, Direction.WEST);
-        new Wall (Kitchener, 2, 3, Direction.WEST);
-        new Wall (Kitchener, 2, 2, Direction.SOUTH);
-        new Wall (Kitchener, 2, 1, Direction.SOUTH);
-        new Wall (Kitchener, 2, 1, Direction.WEST);
+        Robot denis = new Robot(Kitchener, 1, 2, Direction.SOUTH);
+    
+        new Wall (Kitchener, 1, 2, Direction.SOUTH);
+        new Wall (Kitchener, 1, 2, Direction.EAST);
+        new Wall (Kitchener, 1, 2, Direction.NORTH);
+        new Wall (Kitchener, 1, 1, Direction.NORTH);
         new Wall (Kitchener, 1, 1, Direction.WEST);
+        new Wall (Kitchener, 2, 1, Direction.WEST);
+        new Wall (Kitchener, 2, 1, Direction.SOUTH);
+        
+        denis.setLabel("K");
+        denis.setColor(Color.RED);
+        
         
         denis.turnLeft();
         denis.turnLeft();
+        denis.turnLeft();
+        denis.move();
+        denis.turnLeft();
+        denis.move();
+        denis.turnLeft();
+        denis.move();
+        denis.pickThing();
+        denis.turnLeft();
+        denis.turnLeft();
         denis.move();
         denis.turnLeft();
         denis.turnLeft();
         denis.turnLeft();
         denis.move();
-        denis.move();
-        denis.move();
         denis.turnLeft();
         denis.turnLeft();
         denis.turnLeft();
         denis.move();
-        denis.move();
-        denis.move();
         denis.turnLeft();
         denis.turnLeft();
         denis.turnLeft();
-        denis.move();
-        denis.move();
-        denis.move();
-        denis.turnLeft();
-        denis.turnLeft();
-        denis.turnLeft();
-        denis.move();
-        denis.move();
-        denis.turnLeft();
-        denis.turnLeft();   
-    } 
+               
+    }    
 }

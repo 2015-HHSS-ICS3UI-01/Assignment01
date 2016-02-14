@@ -2,6 +2,7 @@
 import becker.robots.City;
 import becker.robots.Direction;
 import becker.robots.Robot;
+import becker.robots.Thing;
 import becker.robots.Wall;
 
 /*
@@ -14,7 +15,7 @@ import becker.robots.Wall;
  *
  * @author Denis
  */
-public class A1Q1 {
+public class A1Q3 {
 
     /**
      * @param args the command line arguments
@@ -22,18 +23,41 @@ public class A1Q1 {
     public static void main(String[] args) {
         // TODO code application logic here
         City Kitchener = new City();
-        Robot denis = new Robot(Kitchener, 0, 2, Direction.WEST);
-   
-        new Wall (Kitchener, 0, 2, Direction.SOUTH);
-        new Wall (Kitchener, 0, 1, Direction.SOUTH);
-        new Wall (Kitchener, 1, 3, Direction.WEST);
-        new Wall (Kitchener, 2, 3, Direction.WEST);
-        new Wall (Kitchener, 2, 2, Direction.SOUTH);
-        new Wall (Kitchener, 2, 1, Direction.SOUTH);
-        new Wall (Kitchener, 2, 1, Direction.WEST);
-        new Wall (Kitchener, 1, 1, Direction.WEST);
+        Robot denis = new Robot(Kitchener, 3, 1, Direction.EAST);
         
+        new Wall (Kitchener, 3, 2, Direction.WEST);
+        new Wall (Kitchener, 3, 2, Direction.NORTH);
+        new Wall (Kitchener, 2, 3, Direction.WEST);
+        new Wall (Kitchener, 1, 3, Direction.WEST);
+        new Wall (Kitchener, 1, 3, Direction.NORTH);
+        new Wall (Kitchener, 1, 3, Direction.EAST);
+        new Wall (Kitchener, 2, 4, Direction.NORTH);
+        new Wall (Kitchener, 2, 4, Direction.EAST);
+        new Wall (Kitchener, 3, 4, Direction.EAST);
+        
+        new Thing(Kitchener, 3, 1);
+        
+        denis.move();
+        denis.pickThing();
         denis.turnLeft();
+        denis.move();
+        denis.turnLeft();
+        denis.turnLeft();
+        denis.turnLeft();
+        denis.move();
+        denis.turnLeft();
+        denis.move();
+        denis.move();
+        denis.turnLeft();
+        denis.turnLeft();
+        denis.turnLeft();
+        denis.move();
+        denis.putThing();
+        denis.move();
+        denis.turnLeft();
+        denis.turnLeft();
+        denis.turnLeft();
+        denis.move();
         denis.turnLeft();
         denis.move();
         denis.turnLeft();
@@ -41,25 +65,8 @@ public class A1Q1 {
         denis.turnLeft();
         denis.move();
         denis.move();
-        denis.move();
         denis.turnLeft();
-        denis.turnLeft();
-        denis.turnLeft();
-        denis.move();
-        denis.move();
-        denis.move();
-        denis.turnLeft();
-        denis.turnLeft();
-        denis.turnLeft();
-        denis.move();
-        denis.move();
-        denis.move();
-        denis.turnLeft();
-        denis.turnLeft();
-        denis.turnLeft();
-        denis.move();
-        denis.move();
-        denis.turnLeft();
-        denis.turnLeft();   
-    } 
-}
+        }
+     }
+    
+
