@@ -2,6 +2,7 @@
 import becker.robots.City;
 import becker.robots.Direction;
 import becker.robots.Robot;
+import becker.robots.Thing;
 import becker.robots.Wall;
 import java.awt.Color;
 
@@ -33,10 +34,12 @@ public class A1Q2 {
         new Wall (Kitchener, 2, 1, Direction.WEST);
         new Wall (Kitchener, 2, 1, Direction.SOUTH);
         
+        new Thing(Kitchener, 2, 2);
+        
         denis.setLabel("K");
         denis.setColor(Color.RED);
         
-        
+     
         denis.turnLeft();
         denis.turnLeft();
         denis.turnLeft();

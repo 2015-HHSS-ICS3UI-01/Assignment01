@@ -36,8 +36,7 @@ public class A1Q3 {
         new Wall (Kitchener, 3, 4, Direction.EAST);
         
         new Thing(Kitchener, 3, 1);
-        
-        denis.move();
+        denis.setLabel("D");
         denis.pickThing();
         denis.turnLeft();
         denis.move();
@@ -68,5 +67,5 @@ public class A1Q3 {
         denis.turnLeft();
         }
      }
-    
+   
 

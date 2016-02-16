@@ -3,6 +3,7 @@ import becker.robots.City;
 import becker.robots.Direction;
 import becker.robots.Robot;
 import becker.robots.Wall;
+import java.awt.Color;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -23,43 +24,35 @@ public class A1Q1 {
         // TODO code application logic here
         City Kitchener = new City();
         Robot denis = new Robot(Kitchener, 0, 2, Direction.WEST);
-   
-        new Wall (Kitchener, 0, 2, Direction.SOUTH);
-        new Wall (Kitchener, 0, 1, Direction.SOUTH);
-        new Wall (Kitchener, 1, 3, Direction.WEST);
-        new Wall (Kitchener, 2, 3, Direction.WEST);
+        
+       
+         new Wall (Kitchener, 1, 2, Direction.NORTH);
+        new Wall (Kitchener, 1, 1, Direction.NORTH);
+        new Wall (Kitchener, 1, 2, Direction.EAST);
+        new Wall (Kitchener, 2, 2, Direction.EAST);
         new Wall (Kitchener, 2, 2, Direction.SOUTH);
         new Wall (Kitchener, 2, 1, Direction.SOUTH);
         new Wall (Kitchener, 2, 1, Direction.WEST);
         new Wall (Kitchener, 1, 1, Direction.WEST);
+     
         
-        denis.turnLeft();
-        denis.turnLeft();
-        denis.move();
-        denis.turnLeft();
-        denis.turnLeft();
-        denis.turnLeft();
-        denis.move();
-        denis.move();
-        denis.move();
-        denis.turnLeft();
-        denis.turnLeft();
-        denis.turnLeft();
-        denis.move();
-        denis.move();
-        denis.move();
-        denis.turnLeft();
-        denis.turnLeft();
-        denis.turnLeft();
-        denis.move();
-        denis.move();
-        denis.move();
-        denis.turnLeft();
-        denis.turnLeft();
-        denis.turnLeft();
-        denis.move();
-        denis.move();
-        denis.turnLeft();
-        denis.turnLeft();   
-    } 
+        denis.setLabel("D");
+        denis.setColor(Color.ORANGE);
+       denis.move();
+       denis.move();
+       denis.turnLeft();
+       denis.move();
+       denis.move();
+       denis.move();
+       denis.turnLeft();
+       denis.move();
+       denis.move();
+       denis.move();
+       denis.turnLeft();
+       denis.move();
+       denis.move();
+       denis.move();
+       denis.turnLeft();
+       denis.move();
+    }
 }
