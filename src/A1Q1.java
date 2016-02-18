@@ -6,13 +6,14 @@ import becker.robots.Wall;
 import java.awt.Color;
 
 /*
- * To change this template, choose Tools | Templates
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
 
 /**
  *
- * @author tatad6701
+ * @author Denis
  */
 public class A1Q1 {
 
