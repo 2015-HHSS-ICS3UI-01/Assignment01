@@ -49,8 +49,5 @@ public class A1Q2 {
     defaultsteve.turnLeft();
     defaultsteve.move();
     defaultsteve.putThing();
-    
-    
-    
     }
 }

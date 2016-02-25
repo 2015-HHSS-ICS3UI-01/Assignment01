@@ -41,7 +41,5 @@ public class A1Q4 {
     defaultsteve.turnLeft();
     defaultsteve.move();
     defaultandrea.move();
-    
-    
     }
 }

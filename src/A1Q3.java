@@ -62,9 +62,5 @@ public class A1Q3 {
     defaultsteve.move();
     defaultsteve.move();
     defaultsteve.turnLeft();
-    
-    
-    
-    
     }
 }

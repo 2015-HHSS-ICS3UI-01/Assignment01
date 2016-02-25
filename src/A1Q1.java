@@ -46,6 +46,5 @@ public class A1Q1 {
     defaultsteve.move();
     defaultsteve.turnLeft();
     defaultsteve.move();
-   
     }
 }

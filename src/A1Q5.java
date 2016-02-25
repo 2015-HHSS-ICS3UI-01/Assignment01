@@ -54,7 +54,6 @@ public class A1Q5 {
     defaultandrea.pickThing();
     defaultsteve.move();
     defaultsteve.pickThing();
-    defaultandrea.turnLeft();
-    
+    defaultandrea.turnLeft();    
     }
 }
