@@ -61,5 +61,6 @@ public class A1Q5 {
         maria.turnLeft();
         maria.move();
         maria.pickThing();
+        
     }
 }
