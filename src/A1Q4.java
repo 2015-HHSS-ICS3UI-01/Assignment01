@@ -42,5 +42,6 @@ public class A1Q4 {
         bob.turnLeft();
         bob.move();
         karel.move();
+        
     }
 }
